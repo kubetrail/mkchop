@@ -43,4 +43,5 @@ func init() {
 
 	f.Int(flags.NumSplits, 5, "Number of splits")
 	f.Int(flags.NumThreshold, 3, "Number of threshold (has to be less than num-splits, min=2)")
+	f.String(flags.Key, "", "Input key to split")
 }

@@ -35,4 +35,5 @@ func init() {
 	f := combineCmd.Flags()
 
 	f.Int(flags.NumThreshold, 3, "Number of threshold (min=2)")
+	f.StringSlice(flags.Key, nil, "Key parts")
 }
